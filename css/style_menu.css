@@ -1,0 +1,87 @@
+/* CSS Document */
+
+
+.hidden-content {
+    visibility: hidden;
+}
+#backgroundMenu {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#btencolhe_expande {
+    padding: 0;
+    margin: 0;
+     cursor: pointer;
+}
+#btencolhe_expande img {
+    cursor: pointer;
+    display: block;
+    float: right;
+    margin:3px;
+}
+.ttMenu {
+    margin : 0px;
+    padding: 0px;
+    cursor: pointer;
+    font-weight: bold;
+     
+}
+.subMenu2 {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+#subDivMenu {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.menu div {
+    margin: 5px;
+    padding: 5px;
+  
+}
+.menu li {
+    margin : 5px;
+    padding: 5px;
+    list-style: none;
+    color: var(--cor-texto1);
+}
+.menu li:hover {
+
+    
+}
+.menu a {
+    margin : 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.menu a:link {
+    color: var(--cor-texto1);
+}
+.menu a:visited {
+    color: var(--cor-texto1);
+}
+.menu a:hover {
+    text-shadow: 0  3px 5px  var(--cor-base1);
+
+    
+}
+
+/*
+#1d1d1d 
+#0d0c34
+#32475f
+#4f5e73
+#9fa3ac
+#d69143
+
+*/

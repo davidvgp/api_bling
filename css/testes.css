@@ -1,0 +1,80 @@
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+.cor{
+    background-color
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    
+}
+corpo{ margin-top:10px; border-top:2px #333; }
+
+.titulo{ text-transform: capitalize;}
+.botao{ border-radius: 10px;}
+
+:root {
+/*geral*/
+--cor-principal: #222222;
+--cor-secundaria: #3B3B3B;
+--cor-terciaria: #3B3B3B;
+--cor-botao: #159FFF;
+--cor-titulos: #333333;
+--cor-preco: #222222;
+/*topo da loja*/
+--cor-background-topo: #ffe600; /*#FFF159*/
+/*corpo da loja*/
+--cor-background-corpo: #f7f7f7;
+/*rodape da loja*/
+--cor-menu-rodape: #3B3B3B;
+--cor-background-menu-rodape: #ffe600;
+--cor-background-rodape: #ffe600;
+/*newsletter rodape*/
+--cor-background-newsletter: #ffffff;
+--cor-texto-newsletter: #818181;
+/*texto fullbanner*/
+--cor-texto-1: #ffe600;
+--cor-texto-2: #ffffff;
+/*compre junto*/
+--cor-background-compre-junto: #ffffff;
+}
+/*
+li.offers.com-filho {
+    display: none;
+}
+*/
+.modal-modalNewsletter .fancybox-skin {
+   background: transparent url('https://cdn.awsli.com.br/1008/1008415/arquivos/newlettermvm.jpg') no-repeat center;
+}
+
+

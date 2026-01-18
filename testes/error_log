@@ -1,0 +1,9 @@
+[10-Aug-2024 20:19:58 America/Fortaleza] PHP Warning:  Undefined variable $dataBusca in /home2/david682/mvjob.com.br/api_bling/testes/index.php on line 57
+[10-Aug-2024 22:28:34 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Data() in /home2/david682/mvjob.com.br/api_bling/testes/index.php:68
+Stack trace:
+#0 {main}
+  thrown in /home2/david682/mvjob.com.br/api_bling/testes/index.php on line 68
+[10-Aug-2024 22:30:12 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function Data() in /home2/david682/mvjob.com.br/api_bling/testes/index.php:68
+Stack trace:
+#0 {main}
+  thrown in /home2/david682/mvjob.com.br/api_bling/testes/index.php on line 68
